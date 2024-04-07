@@ -1,7 +1,3 @@
-# ![Hysteria 2](logo.svg)
-
-# 支持对接V2board面板的Hysteria2后端
-
 ### 项目说明
 本项目基于hysteria官方内核二次开发，添加了从v2b获取节点信息、用户鉴权信息与上报用户流量的功能。
 性能方面已经由hysteria2内核作者亲自指导优化过了。
