@@ -26,6 +26,15 @@ acl:
 ```
 > 其他配置完全与hysteria文档的一致，可以查看hysteria2官方文档 [点击查看](https://hysteria.network/zh/docs/getting-started/Installation/) 
 
+### 快速启动
+```
+docker run -itd --restart=always  --network=host \
+ -e apiHost=https://example.com \
+ -e apiKey=xxxxxxxxxxxxxxxxxxxxx \
+ -e domain=hy2.example.com  \
+ -e nodeID=1 \
+ghcr.io/cedar2025/hysteria:latest
+```
 ### docker 仓库
 ```
 docker pull ghcr.io/cedar2025/hysteria:latest
